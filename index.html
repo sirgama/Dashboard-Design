@@ -33,9 +33,9 @@ rel="stylesheet"
 
 
 
-<div class="col-md-3 text-center  area1">
-<div class="col container ">
-    <div class="row"><img class="img-fluid m-4" src="./assets/logo.png" alt="" style="height: 100%; width:65%;"></div>
+<div class="col-md-3 text-center  ">
+<div class="col container area1 mt-4 ">
+    <div class="row "><img class="img-fluid m-4 " src="./assets/logo.png" alt="" style="height: 100%; width:65%;"></div>
     <div class="row mt-3 profile"><img class="img-fluid user1 rounded-circle" src="./assets/user.jpg" alt=""></div>
       
     <div class="row"><h5 class="text-center fw-bold mt-2">Joyce Njoroge</h5></div>
@@ -49,7 +49,7 @@ rel="stylesheet"
       aria-orientation="vertical"
     >
       <a
-        class="nav-link active"
+        class="nav-link active mt-2"
         id="v-tabs-home-tab"
         data-mdb-toggle="tab"
         href="#v-tabs-home"
@@ -59,7 +59,7 @@ rel="stylesheet"
         >Dashboard</a
       >
       <a
-        class="nav-link"
+        class="nav-link mt-1"
         id="v-tabs-profile-tab"
         data-mdb-toggle="tab"
         href="#v-tabs-profile"
@@ -69,14 +69,34 @@ rel="stylesheet"
         >Task List</a
       >
       <a
-        class="nav-link"
+        class="nav-link mt-1"
         id="v-tabs-messages-tab"
         data-mdb-toggle="tab"
         href="#v-tabs-messages"
         role="tab"
         aria-controls="v-tabs-messages"
         aria-selected="false"
-        >Dev Tools</a
+        >Dev Resources</a
+      >
+      <a
+        class="nav-link mt-1"
+        id="v-tabs-profile-tab"
+        data-mdb-toggle="tab"
+        href="#v-tabs-profile"
+        role="tab"
+        aria-controls="v-tabs-profile"
+        aria-selected="false"
+        >Update Profile</a
+      >
+      <a
+        class="nav-link mt-1"
+        id="v-tabs-settings-tab"
+        data-mdb-toggle="tab"
+        href="#v-tabs-settings"
+        role="tab"
+        aria-controls="v-tabs-settings"
+        aria-selected="false"
+        >Settings</a
       >
     </div>
     <!-- Tab navs -->
@@ -116,18 +136,25 @@ rel="stylesheet"
           role="tabpanel"
           aria-labelledby="v-tabs-messages-tab"
         >
-        <div id="timer">
-            <span id="hours">00:</span>
-            <span id="mins">00:</span>
-            <span id="seconds">00</span>  
-          </div>
-          <div id="controls">
-            <button id="start">Start</button>
-          <button id="stop">Stop</button>
-          <button id="reset">Reset</button>
-          </div>
-          
-        </div>
+        resources
+      </div>
+
+      <div
+          class="tab-pane fade"
+          id="v-tabs-profile"
+          role="tabpanel"
+          aria-labelledby="v-tabs-profile-tab"
+        >
+        profile
+      </div>
+
+      <div
+          class="tab-pane fade"
+          id="v-tabs-settings"
+          role="tabpanel"
+          aria-labelledby="v-tabs-settings-tab"
+        >
+        settings
       </div>
       <!-- Tab content -->
 
