@@ -128,7 +128,7 @@ rel="stylesheet"
                 <p><small class="text-muted"> Today is Wednesday, 18 May 2022</small></p>
             </div>
             <div class="col">
-                <button class="button-40" role="button"><small class="text-white"> New Task</small></button>
+                <button class="button-40" role="button"><small class="text-white" data-mdb-toggle="modal" data-mdb-target="#staticBackdrop"> New Task</small></button>
             </div>
         </div>
         <div class="row mt-2">
@@ -355,6 +355,30 @@ rel="stylesheet"
     
 
 
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="staticBackdrop"
+  data-mdb-backdrop="static"
+  data-mdb-keyboard="false"
+  tabindex="-1"
+  aria-labelledby="staticBackdropLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">...</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
