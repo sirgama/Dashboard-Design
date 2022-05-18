@@ -49,7 +49,7 @@ rel="stylesheet"
       aria-orientation="vertical"
     >
       <a
-        class="nav-link active mt-2"
+        class="nav-link  mt-2"
         id="v-tabs-home-tab"
         data-mdb-toggle="tab"
         href="#v-tabs-home"
@@ -59,14 +59,14 @@ rel="stylesheet"
         >Dashboard</a
       >
       <a
-        class="nav-link mt-1"
+        class="nav-link active mt-1"
         id="v-tabs-profile-tab"
         data-mdb-toggle="tab"
         href="#v-tabs-profile"
         role="tab"
         aria-controls="v-tabs-profile"
         aria-selected="false"
-        >Task List</a
+        >Weekly Tasks</a
       >
       <a
         class="nav-link mt-1"
@@ -78,16 +78,7 @@ rel="stylesheet"
         aria-selected="false"
         >Dev Resources</a
       >
-      <a
-        class="nav-link mt-1"
-        id="v-tabs-profile-tab"
-        data-mdb-toggle="tab"
-        href="#v-tabs-profile"
-        role="tab"
-        aria-controls="v-tabs-profile"
-        aria-selected="false"
-        >Update Profile</a
-      >
+     
       <a
         class="nav-link mt-1"
         id="v-tabs-settings-tab"
@@ -115,7 +106,7 @@ rel="stylesheet"
      <!-- Tab content -->
      <div class="tab-content" id="v-tabs-tabContent">
         <div
-          class="tab-pane fade show active"
+          class="tab-pane "
           id="v-tabs-home"
           role="tabpanel"
           aria-labelledby="v-tabs-home-tab"
@@ -238,23 +229,197 @@ rel="stylesheet"
 
 
 
-
-
-
-
-
-
-
         <!-- Dashboard Area  -->
         </div>
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- weekly tasks section starts here -->
+
         <div
-          class="tab-pane fade"
+          class="tab-pane fade show active"
           id="v-tabs-profile"
           role="tabpanel"
           aria-labelledby="v-tabs-profile-tab"
         >
-          Profile content
+        <div class="row mt-5 d-flex ">
+            <div class="col mt-2 ">
+                <h4 class="fw-bold">Dev Weekly Planner</h4>
+                <p class="mt-4 text-muted"><small > Dev weekly Planner helps you plan your week well. Add all tasks you'd love to achieve in your week!</small></p>
+            </div>
+            <div class="col">
+                <button class="button-40" role="button"><small class="text-white" data-mdb-toggle="modal" data-mdb-target="#staticBackdrop"> Add Weekly Task</small></button>
+            </div>
         </div>
+
+        <!-- weekdays tabs -->
+        <div class="container">
+            <!-- Tabs navs -->
+<ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" id="ex-with-icons-tab-1" data-mdb-toggle="tab" href="#ex-with-icons-tabs-1" role="tab"
+        aria-controls="ex-with-icons-tabs-1" aria-selected="true"><i class="fas fa-chart-pie fa-fw me-2"></i>Mon</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="ex-with-icons-tab-2" data-mdb-toggle="tab" href="#ex-with-icons-tabs-2" role="tab"
+        aria-controls="ex-with-icons-tabs-2" aria-selected="false"><i class="fas fa-chart-line fa-fw me-2"></i>Tue</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="ex-with-icons-tab-3" data-mdb-toggle="tab" href="#ex-with-icons-tabs-3" role="tab"
+        aria-controls="ex-with-icons-tabs-3" aria-selected="false"><i class="fas fa-cogs fa-fw me-2"></i>Wed</a>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" id="ex-with-icons-tab-4" data-mdb-toggle="tab" href="#ex-with-icons-tabs-4" role="tab"
+          aria-controls="ex-with-icons-tabs-4" aria-selected="false"><i class="fas fa-cogs fa-fw me-2"></i>Thur</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="ex-with-icons-tab-5" data-mdb-toggle="tab" href="#ex-with-icons-tabs-5" role="tab"
+          aria-controls="ex-with-icons-tabs-5" aria-selected="false"><i class="fas fa-cogs fa-fw me-2"></i>Fri</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="ex-with-icons-tab-6" data-mdb-toggle="tab" href="#ex-with-icons-tabs-6" role="tab"
+          aria-controls="ex-with-icons-tabs-6" aria-selected="false"><i class="fas fa-cogs fa-fw me-2"></i>Sat</a>
+      </li>
+     
+  </ul>
+  <!-- Tabs navs -->
+  
+  <!-- Tabs content -->
+  <div class="tab-content" id="ex-with-icons-content">
+    <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel" aria-labelledby="ex-with-icons-tab-1">
+   <h6>   Monday tasks</h6>
+   <div class="col">
+    
+    <div class="card  taskcards1" style="height: 6rem;">
+        <div class="card-body"><div class="row d-flex justify-content-between">
+            <div class="col">
+                <small class="fw-bold">Data Structures and Algorithms</small>
+            </div>
+            <div class="col">
+                <a href="#"><button class="button-70" role="button">Mark Done</button></a>
+            </div>
+    </div>
+    <div class="row">
+        <p>ALX-T & Udacity Scholarship</p>
+    </div>
+    </div>
+      </div>
+
+      <div class="card  taskcards1 mt-2" style="height: 6rem;">
+        <div class="card-body"><div class="row d-flex justify-content-between"><div class="col">
+            <small class="fw-bold">Project Submission</small>
+        </div>
+        <div class="col">
+            <a href="#"><button class="button-70" role="button">Mark Done</button></a>
+        </div>
+    </div>
+    <div class="row">
+        <p>Github</p>
+    </div>
+    </div>
+      </div>
+      <div class="card  taskcards1 mt-2" style="height: 6rem;">
+        <div class="card-body"><div class="row d-flex justify-content-between"><div class="col">
+            <small class="fw-bold">Professional Development</small>
+        </div>
+        <div class="col">
+            <a href="#"><button class="button-70" role="button">Mark Done</button></a>
+        </div>
+    </div>
+    <div class="row">
+        <p>Communicating for impact</p>
+    </div>
+    </div>
+      </div>
+
+</div>
+
+        
+
+    </div>
+    <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel" aria-labelledby="ex-with-icons-tab-2">
+    <h6>  Tuesday tasks</h6>
+
+    <div class="col">
+    
+        <div class="card  taskcards2" style="height: 6rem;">
+            <div class="card-body"><div class="row d-flex justify-content-between">
+                <div class="col">
+                    <small class="fw-bold">Data Structures and Algorithms</small>
+                </div>
+                <div class="col">
+                    <a href="#"><button class="button-70" role="button">Mark Done</button></a>
+                </div>
+        </div>
+        <div class="row">
+            <p>ALX-T & Udacity Scholarship</p>
+        </div>
+        </div>
+          </div>
+    
+          <div class="card  taskcards2 mt-2" style="height: 6rem;">
+            <div class="card-body"><div class="row d-flex justify-content-between"><div class="col">
+                <small class="fw-bold">Project Submission</small>
+            </div>
+            <div class="col">
+                <a href="#"><button class="button-70" role="button">Mark Done</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <p>Github</p>
+        </div>
+        </div>
+          </div>
+          <div class="card  taskcards2 mt-2" style="height: 6rem;">
+            <div class="card-body"><div class="row d-flex justify-content-between"><div class="col">
+                <small class="fw-bold">Professional Development</small>
+            </div>
+            <div class="col">
+                <a href="#"><button class="button-70" role="button">Mark Done</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <p>Communicating for impact</p>
+        </div>
+        </div>
+          </div>
+    
+    </div>
+
+
+    </div>
+    <div class="tab-pane fade" id="ex-with-icons-tabs-3" role="tabpanel" aria-labelledby="ex-with-icons-tab-3">
+      <h6>Wednesday tasks</h6>
+    </div>
+    <div class="tab-pane fade" id="ex-with-icons-tabs-4" role="tabpanel" aria-labelledby="ex-with-icons-tab-4">
+       <h6> Thursday tasks</h6>
+      </div>
+      <div class="tab-pane fade" id="ex-with-icons-tabs-5" role="tabpanel" aria-labelledby="ex-with-icons-tab-5">
+     <h6>   Friday tasks</h6>
+      </div>
+      <div class="tab-pane fade" id="ex-with-icons-tabs-6" role="tabpanel" aria-labelledby="ex-with-icons-tab-6">
+       <h6> Saturday tasks</h6>
+      </div>
+  </div>
+  <!-- Tabs content -->
+        </div>
+
+
+        </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- Weekly tasks section ends here -->
+
+
+
+
+
+
+
+
+
+
+
+
         <div
           class="tab-pane fade"
           id="v-tabs-messages"
