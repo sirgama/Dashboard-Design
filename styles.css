@@ -58,18 +58,29 @@
 
 }
 .taskcards{
-    border-radius: 10px;
+    border-radius: 8px;
     border-left: 8px solid #fd7e51 ;
 }
 .taskcards1{
     border-left: 8px solid #71357b ;
 }
 .taskcards2{
-    border-left: 8px solid #95d0d4 ;
+    border-left: 10px solid #95d0d4 ;
 }
 .taskcards3{
-    border-left: 8px solid #fd7e51 ;
+    border-left: 10px solid #0e008d ;
 }
+.taskcards4{
+    border-left: 10px solid #970404 ;
+}
+.taskcards5{
+    border-left: 10px solid #fd7e51 ;
+}
+
+.taskcards6{
+    border-left: 10px solid #c800a0 ;
+}
+
 
 
 
@@ -156,4 +167,10 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+small, p{
+    font-size: 12px;
+}
+span{
+    font-size: 13px;
 }
