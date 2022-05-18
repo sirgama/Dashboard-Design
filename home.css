@@ -2,15 +2,15 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    background-color: #fefefe;
+   
 }
 
 
 
 .hero{
-    height: 100vh;
+    height: 87vh;
     width: 100vw;
-    
+    background-color: #fefefe;
 }
 .hero h1{
     font-size: 66px;
@@ -21,7 +21,13 @@
     border-bottom: 6px solid rgb(77, 2, 148);
     border-radius: 20px;
 }
-
+.features{
+    height: 60vh;
+    background-color: #f6f9ff !important;
+}
+.features h5{
+    color: #3c4fe0;
+}
 
 
 
