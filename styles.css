@@ -53,10 +53,24 @@
 .card:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
+.cardpremium{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
 .taskcards{
     border-radius: 10px;
     border-left: 8px solid #fd7e51 ;
 }
+.taskcards1{
+    border-left: 8px solid #71357b ;
+}
+.taskcards2{
+    border-left: 8px solid #95d0d4 ;
+}
+.taskcards3{
+    border-left: 8px solid #fd7e51 ;
+}
+
 
 
 /* CSS */
